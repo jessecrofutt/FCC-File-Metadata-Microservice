@@ -4,8 +4,8 @@ const app = express();
 const multer = require('multer');
 const upload = multer({dest: 'uploads/'});
 
-// const port =  process.env.PORT;
-const port =  8888;
+const port =  process.env.PORT;
+// const port =  8888;
 
 let sassMiddleware = require("node-sass-middleware");
 app.use(sassMiddleware({
